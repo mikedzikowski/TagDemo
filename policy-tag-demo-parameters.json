@@ -1,0 +1,44 @@
+{
+    "OwnerValue": {
+        "type": "String",
+        "metadata": {
+            "displayName": "Government Contact E-mail Address"
+        }
+    },
+    "EnvironmentValue": {
+        "type": "String",
+        "allowedvalues":[
+            "STAGING", "DEVELOPMENT","PRODUCTION"
+        ],
+        "metadata": {
+            "displayName": "Environment. STAGING, DEVELOPMENT, PRODUCTION"
+        }
+    },
+    "ClassificationValue": {
+        "type": "String",
+        "allowedvalues":[
+            "WEBAPP", "SECURITY", "IL4", "IL5"
+        ],
+        "metadata": {
+            "displayName": "Classification. IL4, IL4, WEBAPP, SECURITY"
+        }
+    },
+    "DepartmentValue": {
+        "type": "String",
+        "allowedvalues":[
+            "FINANCE", "HR", "IT"
+        ],
+        "metadata": {
+            "displayName": "Department Value. EXAMPLE: FINANCE, HR, OR IT"
+        }
+    },
+    "OrganizationValue": {
+        "type": "String",
+        "metadata": {
+            "displayName": "Organization. TTB, NRC, IAD"
+        },
+        "allowedvalues":[
+            "TTB", "NRC", "IAD"
+        ]
+    }
+}

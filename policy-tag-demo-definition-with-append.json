@@ -1,0 +1,112 @@
+[
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "Owner"
+            },
+            "tagValue": {
+                "value": "[parameters('OwnerValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "Owner"
+            },
+            "tagValue": {
+                "value": "[parameters('OwnerValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "Environment"
+            },
+            "tagValue": {
+                "value": "[parameters('EnvironmentValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "Environment"
+            },
+            "tagValue": {
+                "value": "[parameters('EnvironmentValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "Classification"
+            },
+            "tagValue": {
+                "value": "[parameters('ClassificationValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "Classification"
+            },
+            "tagValue": {
+                "value": "[parameters('ClassificationValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "Department"
+            },
+            "tagValue": {
+                "value": "[parameters('DepartmentValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "Department"
+            },
+            "tagValue": {
+                "value": "[parameters('DepartmentValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+        "parameters": {
+            "tagName": {
+                "value": "Organization"
+            },
+            "tagValue": {
+                "value": "[parameters('OrganizationValue')]"
+            }
+        }
+    },
+    {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+        "parameters": {
+            "tagName": {
+                "value": "Organization"
+            },
+            "tagValue": {
+                "value": "[parameters('OrganizationValue')]"
+            }
+        }
+    }
+]
