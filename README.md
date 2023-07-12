@@ -1,2 +1,2 @@
 # TagDemo
-Tag Demo
+Simple Policy Initiative For Demoing Tags
